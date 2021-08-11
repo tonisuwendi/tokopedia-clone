@@ -1,10 +1,13 @@
 import { css } from "@emotion/css";
 
+const lineColor = "#e6e6e7";
+
 export const header = css`
   background-color: white;
   height: 110px;
-  position: relative;
+  position: fixed;
   width: 100%;
+  z-index: 9;
 `;
 
 export const headerTop = css`
@@ -66,7 +69,7 @@ export const iconSize = css`
 `;
 
 export const verticalLine = css`
-  background-color: #e6e6e7;
+  background-color: ${lineColor};
   height: 28px;
   margin-left: 25px;
   width: 1px;
@@ -96,7 +99,7 @@ export const trendingPopKey = css`
   display: flex;
   margin-left: 270px;
   position: relative;
-  top: -2px;
+  top: -3px;
   width: calc(100vw - 750px);
   white-space: nowrap;
 `;
@@ -106,4 +109,35 @@ export const locationSent = css`
   cursor: pointer;
   position: absolute;
   right: 30px;
+`;
+
+export const categoriesWrapper = css`
+  background-color: white;
+  border-top: 1px solid ${lineColor};
+  height: auto;
+  padding-bottom: 20px;
+  top: 110px;
+  width: 100%;
+`;
+
+export const topMenuCategories = css`
+  border-bottom: 1px solid ${lineColor};
+  box-sizing: border-box;
+  display: flex;
+  overflow: scroll;
+  padding: 0 20px;
+  width: 100%;
+`;
+
+export const topMenuCategoriesText = css`
+  cursor: pointer;
+  color: #aaa;
+  font-size: 13.5px;
+  padding: 20px 25px;
+  white-space: nowrap;
+`;
+
+export const topMenuCategoriesTextActive = css`
+  border-bottom: 2px solid #03ac0e;
+  color: #03ac0e;
 `;

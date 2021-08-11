@@ -12,3 +12,17 @@ html {
 a {
   text-decoration: none;
 }
+
+.react-slidedown.my-dropdown-slidedown {
+  transition-duration: 0.2s;
+  transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
+}
+
+.bgdark-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}

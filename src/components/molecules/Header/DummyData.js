@@ -1,4 +1,4 @@
-export const MenuTopHeader = [
+export const menuTopHeader = [
   {
     href: "/",
     title: "Tentang Tokopedia",
@@ -21,7 +21,7 @@ export const MenuTopHeader = [
   },
 ];
 
-export const TrendingPopularKeywords = [
+export const trendingPopularKeywords = [
   {
     href: "/",
     title: "Kulkas 2 Pintu",
@@ -42,4 +42,18 @@ export const TrendingPopularKeywords = [
     href: "/",
     title: "Xiaomi Oclean Toothbrush",
   },
+];
+
+export const categoriesTop = [
+  "Featured",
+  "Brand Unggulan",
+  "Halal Corner",
+  "Investasi Asuransi & Pinjaman",
+  "Pajak",
+  "Pendidikan",
+  "Tagihan",
+  "Top-Up",
+  "Travel & Entertainment",
+  "OS Populer",
+  "Lainnya",
 ];

@@ -1,3 +1,4 @@
 import Header from "./Header";
+import HomeBanner from "./HomeBanner";
 
-export { Header };
+export { Header, HomeBanner };
