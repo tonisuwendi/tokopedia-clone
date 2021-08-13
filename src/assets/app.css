@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap");
+
 * {
   font-family: "open sans", "tahoma", sans-serif;
   margin: 0;
@@ -25,4 +27,33 @@ a {
   top: 0;
   width: 100%;
   z-index: 1;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 1px 6px 0 rgba(49, 53, 59, 0.12);
+  color: #333 !important;
+  height: 43px !important;
+  margin-top: 0 !important;
+  transform: translate(0, -50%);
+  width: 43px !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 16px !important;
+  font-weight: bold;
+}
+
+.miniSlider .swiper-button-prev,
+.miniSlider .swiper-button-next {
+  height: 35px !important;
+  width: 35px !important;
+}
+
+.miniSlider .swiper-button-prev::after,
+.miniSlider .swiper-button-next::after {
+  font-size: 12px !important;
 }
